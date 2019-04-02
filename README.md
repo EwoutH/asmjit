@@ -1,4 +1,4 @@
-AsmJit
+AsmJit [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/asmjit/asmjit?branch=master&svg=true)](https://ci.appveyor.com/project/kobalicek/asmjit/history)
 ------
 
 Complete x86/x64 JIT and Remote Assembler for C++.

@@ -52,3 +52,7 @@ test_script:
   - asmjit_test_unit.exe
   - asmjit_test_x86_asm.exe
   - asmjit_test_x86_cc.exe
+
+artifacts:
+    - path: bin\$(BUILD_TYPE)\*.*
+      name: $(APPVEYOR_PROJECT_NAME)
